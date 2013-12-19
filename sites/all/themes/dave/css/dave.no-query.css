@@ -1,5 +1,43 @@
+/* No files to import found in abstractions/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
-/* No files to import found in partials/components/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\000034}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\000039}}
+  * img {
+    outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000315}}
+#header-wrapper {
+  position: fixed;
+  z-index: 100;
+  background: black;
+  color: white;
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000323}}
+  #header-wrapper #header {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000326}}
+    #header-wrapper #header #logo-wrapper {
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000331}}
+    #header-wrapper #header #navigation-bar .nav-link {
+      color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000334}}
+    #header-wrapper #header #navigation-bar .nav-link:hover {
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000337}}
+    #header-wrapper #header #navigation-bar .nav-link.selected {
+      color: red; }

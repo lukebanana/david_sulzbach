@@ -1,0 +1,43 @@
+// Import SUSY Responsive Grids
+@import "susy";
+
+*{
+  // Disables the need to calculate margin and paddings
+  @include box-sizing(border-box);
+  outline: none;
+
+  img{
+    outline: 0;
+  }
+}
+
+
+#header-wrapper{
+  position: fixed;
+  z-index: 100;
+  background: black;
+  color: white;
+
+  @include span-columns(1 omega, 1);
+
+  #header{
+    @include span-columns(1 omega, 1);
+
+    #logo-wrapper{
+      float: left;
+    }
+
+    #navigation-bar{
+      .nav-link{
+        color: white;
+      }
+      .nav-link:hover{
+        cursor: pointer;
+      }
+      .nav-link.selected{
+        color: red;
+      }
+    }
+  }
+
+}
