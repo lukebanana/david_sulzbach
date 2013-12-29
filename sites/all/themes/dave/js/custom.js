@@ -14,6 +14,7 @@ $(window).resize(adjustContainerHeight);
 
 
 jQuery(document).ready(function() {
+
   adjustContainerHeight();
 
   // Find out top offsets for scrolling function
@@ -34,6 +35,8 @@ jQuery(document).ready(function() {
             ];
   //
   $(".nav-link").first().addClass("selected");
+
+
 
   // Create Click function for each link/row
   array.forEach(function(entry) {

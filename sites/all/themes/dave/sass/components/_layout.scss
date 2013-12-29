@@ -70,6 +70,7 @@
         }
         .nav-link.selected{
           color: #5E768D; // #E74C3C;
+          // font-weight: 400;
           border-bottom: 5px solid #EFEFEF;
         }
 
@@ -154,13 +155,16 @@
         margin-top: -30%;
         text-align: center;
         color: #EEE;
-        background-color: green;
+        //background-color: green;
+        z-index: 999;
         .field-content{
           padding: 5px;
-          background-color: red; //rgba(34, 34, 34, 0.4);
+          //background-color: red; //rgba(34, 34, 34, 0.4);
+          z-index: 999;
         }
         h1{
           background-color: blue;
+          z-index: 999;
           font-size: 46px;
         }
       }
@@ -198,7 +202,9 @@
   .hoerbeispiele-row{
     color: #2B3E50;
     // noisy, old_wall
-    background: #F6F8F8; // url('/sites/all/themes/dave/images/subtle-transparent-bgs/paper_3.png');
+    background: #F6F8F8 url('/sites/all/themes/dave/images/Headphones1080p_sharper.jpg') no-repeat;
+    background-size: 100%;
+    // url('/sites/all/themes/dave/images/subtle-transparent-bgs/paper_3.png');
   }
   // ********************** Kontakt
   .kontakt-row{
@@ -285,6 +291,18 @@
     .field--name-field-person div{
       float: left;
       font-weight: bold;
+    }
+  }
+
+  .node-h-rbeispiele{
+    .jp-audio{
+      .jp-interface{
+        border: none;
+        margin-bottom: 5px;
+      }
+      .jp-playlist{
+        border: none;
+      }
     }
   }
 }
