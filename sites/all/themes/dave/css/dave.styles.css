@@ -3,6 +3,19 @@
 img, media {
   max-width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/base\/_typography\.scss}line{font-family:\000032}}
+#page-wrapper p, #page-wrapper div, #page-wrapper a, #page-wrapper span {
+  font-size: 18px;
+  line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/base\/_typography\.scss}line{font-family:\000037}}
+#page-wrapper h1, #page-wrapper h2, #page-wrapper h3, #page-wrapper h4, #page-wrapper h5 {
+  margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/base\/_typography\.scss}line{font-family:\0000311}}
+#page-wrapper h2 {
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 500; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\000034}}
 * {
   -webkit-box-sizing: border-box;
@@ -12,32 +25,286 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\000039}}
   * img {
     outline: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000312}}
+  * a {
+    color: black; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000318}}
 #header-wrapper {
   position: fixed;
+  padding: 0 2% 0 2%;
+  background: white;
   z-index: 100;
-  background: black;
-  color: white;
   width: 100%;
   float: right;
   margin-right: 0;
   *margin-left: -1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000327}}
   #header-wrapper #header {
     width: 100%;
     float: right;
     margin-right: 0;
     *margin-left: -1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000330}}
     #header-wrapper #header #logo-wrapper {
-      float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000331}}
-    #header-wrapper #header #navigation-bar .nav-link {
-      color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000334}}
-    #header-wrapper #header #navigation-bar .nav-link:hover {
-      cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000337}}
-    #header-wrapper #header #navigation-bar .nav-link.selected {
-      color: red; }
+      width: 15.25424%;
+      float: left;
+      margin-right: 1.69492%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000332}}
+      #header-wrapper #header #logo-wrapper #logo {
+        height: 50px;
+        width: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000338}}
+    #header-wrapper #header #navigation-bar {
+      width: 83.05085%;
+      float: right;
+      margin-right: 0;
+      *margin-left: -1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000341}}
+      #header-wrapper #header #navigation-bar #navigation-wrapper {
+        float: right;
+        width: 710px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000345}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper .nav-link {
+          font-size: 16px;
+          padding: 20px 0px 15px 0px;
+          padding-right: 3.2%;
+          padding-left: 3.2%;
+          font-weight: 300;
+          text-transform: uppercase;
+          text-decoration: none;
+          margin-right: 0;
+          float: left;
+          text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000358}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper .nav-link:last-child {
+          margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000361}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper .nav-link:hover {
+          cursor: pointer;
+          background: #BDC3C7;
+          color: white;
+          padding-bottom: 15px;
+          border-bottom: 5px solid #2D3F51; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000368}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper .nav-link.selected:hover {
+          color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000371}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper .nav-link.selected {
+          color: #5E768D;
+          border-bottom: 5px solid #EFEFEF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000377}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper #home-link:hover {
+          border-bottom: 5px solid black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000380}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper #about-link:hover {
+          border-bottom: 5px solid #617A92; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000383}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper #references-link:hover {
+          border-bottom: 5px solid #E4E9E9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000386}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper #berufsdetails-link:hover {
+          border-bottom: 5px solid #2B3E50; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000389}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper #hoerbeispiele-link:hover {
+          border-bottom: 5px solid #F6F8F8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000392}}
+        #header-wrapper #header #navigation-bar #navigation-wrapper #kontakt-link:hover {
+          border-bottom: 5px solid #2D353F; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003100}}
+#page-wrapper {
+  padding-top: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003105}}
+#main-content .messages {
+  margin: 0;
+  padding: 0 50px 0 50px;
+  text-align: center;
+  background-image: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003115}}
+#main-content .about-row,
+#main-content .references-row,
+#main-content .berufsdetails-row,
+#main-content .hoerbeispiele-row,
+#main-content .kontakt-row {
+  padding: 8% 10% 8% 10%;
+  color: #ECECEC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003122}}
+#main-content .about-row,
+#main-content .berufsdetails-row,
+#main-content .hoerbeispiele-row,
+#main-content .kontakt-row {
+  min-height: 600px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003127}}
+#main-content .home-row {
+  background: black url("/sites/all/themes/dave/images/subtle-transparent-bgs/fake_brick.png");
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003135}}
+  #main-content .home-row .pane-node {
+    background: rgba(34, 34, 34, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003139}}
+  #main-content .home-row .home-region {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003145}}
+  #main-content .home-row .flexslider {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    border: none;
+    margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003149}}
+    #main-content .home-row .flexslider img {
+      width: 100%;
+      height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003153}}
+    #main-content .home-row .flexslider .views-field-body {
+      margin-top: -30%;
+      text-align: center;
+      color: #EEE;
+      background-color: green; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003158}}
+      #main-content .home-row .flexslider .views-field-body .field-content {
+        padding: 5px;
+        background-color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003162}}
+      #main-content .home-row .flexslider .views-field-body h1 {
+        background-color: blue;
+        font-size: 46px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003169}}
+    #main-content .home-row .flexslider .flex-control-nav {
+      bottom: 40px;
+      display: none;
+      z-index: 999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003174}}
+    #main-content .home-row .flexslider .flex-direction-nav a {
+      line-height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003181}}
+#main-content .about-row {
+  background: #617a92 url("/sites/all/themes/dave/images/subtle-transparent-bgs/nami.png"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003186}}
+#main-content .references-row {
+  color: #2D3F51;
+  background: #E4E9E9;
+  min-height: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003193}}
+#main-content .berufsdetails-row {
+  color: #E4E9E9;
+  background: #2B3E50; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003198}}
+#main-content .hoerbeispiele-row {
+  color: #2B3E50;
+  background: #F6F8F8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003204}}
+#main-content .kontakt-row {
+  background: #2D3540; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003207}}
+  #main-content .kontakt-row a {
+    color: #EEE; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003211}}
+  #main-content .kontakt-row .pane-node {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003216}}
+  #main-content .kontakt-row .pane-webform-client-block-8 {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003219}}
+    #main-content .kontakt-row .pane-webform-client-block-8 .pane-title {
+      visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003222}}
+    #main-content .kontakt-row .pane-webform-client-block-8 label {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%;
+      margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003226}}
+    #main-content .kontakt-row .pane-webform-client-block-8 input {
+      width: 66.10169%;
+      float: right;
+      margin-right: 0;
+      *margin-left: -1em;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+      background-color: #EEE; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003231}}
+    #main-content .kontakt-row .pane-webform-client-block-8 .webform-component {
+      min-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003235}}
+    #main-content .kontakt-row .pane-webform-client-block-8 #webform-component-nachricht textarea {
+      background-color: #EEE;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003239}}
+    #main-content .kontakt-row .pane-webform-client-block-8 #webform-component-nachricht .grippie {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003243}}
+    #main-content .kontakt-row .pane-webform-client-block-8 #edit-submit {
+      width: 100%;
+      padding: 5px;
+      border: none;
+      color: #EEE;
+      background: #5F6873; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003249}}
+      #main-content .kontakt-row .pane-webform-client-block-8 #edit-submit:hover {
+        background: #4F5762; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003258}}
+#main-content .node-text-with-image-left img {
+  float: left;
+  margin: 0 3% 3% 0;
+  border: 5px solid #EEE; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003266}}
+#main-content .node-text-with-image-right img {
+  float: right;
+  margin: 0 0 3% 3%;
+  border: 5px solid #EEE; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003274}}
+#main-content .node-quote-formatting .pane-node-body {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003277}}
+#main-content .node-quote-formatting .pane-custom {
+  float: left;
+  margin: 0 2% 0 82%;
+  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003281}}
+  #main-content .node-quote-formatting .pane-custom .seperator {
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003285}}
+#main-content .node-quote-formatting .field--name-field-person div {
+  float: left;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003294}}
+.flexslider {
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003302}}
+  .flexslider .flex-control-nav {
+    bottom: 40px;
+    background: green;
+    display: none;
+    z-index: 999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003308}}
+  .flexslider .flex-direction-nav {
+    line-height: 40px; }

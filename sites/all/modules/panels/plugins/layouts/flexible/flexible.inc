@@ -537,7 +537,14 @@ function panels_flexible_render_item($renderer, $item, $content, $id, $position,
   }
 
   $base = $renderer->item_class[$item['type']];
-  $output = '<div class="' . $base . ' ' . $renderer->base[$item['type']] . '-' . $id;
+  // Module Hack for parralex Scrolling
+  if($item['type'] == 'row'){
+    $output = '<div data-stellar-background-ratio="0.5" class="' . $base . ' ' . $renderer->base[$item['type']] . '-' . $id;
+  }else{
+    $output = '<div class="' . $base . ' ' . $renderer->base[$item['type']] . '-' . $id;
+  }
+
+  //$output = '<div class="' . $base . ' ' . $renderer->base[$item['type']] . '-' . $id;
   if ($position == 0) {
     $output .= ' ' . $base . '-first';
   }

@@ -9,14 +9,18 @@
   img{
     outline: 0;
   }
+  a{
+    color: black;
+  }
 }
 
-
+// **************************** HEADER ********************************
 #header-wrapper{
   position: fixed;
+  padding: 0 2% 0 2%;
+  background: white;
   z-index: 100;
-  background: black;
-  color: white;
+  // border-bottom: 1px solid #CECECE;
 
   @include span-columns(1 omega, 1);
 
@@ -24,20 +28,284 @@
     @include span-columns(1 omega, 1);
 
     #logo-wrapper{
-      float: left;
+      @include span-columns(2, 12);
+      #logo{
+        height: 50px;
+        width: 150px;
+      }
     }
 
     #navigation-bar{
-      .nav-link{
-        color: white;
+      @include span-columns(10 omega, 12);
+
+      #navigation-wrapper{
+        float: right;
+        width: 710px;
+
+        .nav-link{
+          font-size: 16px;
+          padding: 20px 0px 15px 0px;
+          padding-right: 3.2%;
+          padding-left: 3.2%;
+          font-weight: 300;
+          text-transform: uppercase;
+          text-decoration: none;
+          // width: 16.666%;
+          margin-right: 0;
+          float: left;
+          text-align: center;
+        }
+        .nav-link:last-child{
+          margin-right: 0;
+        }
+        .nav-link:hover{
+          cursor: pointer;
+          background: #BDC3C7;
+          color: white;
+          padding-bottom: 15px;
+          border-bottom: 5px solid #2D3F51;
+        }
+        .nav-link.selected:hover{
+          color: white;
+        }
+        .nav-link.selected{
+          color: #5E768D; // #E74C3C;
+          border-bottom: 5px solid #EFEFEF;
+        }
+
+        // Different Bottom-Borders for different sections
+        #home-link:hover{
+          border-bottom: 5px solid black;
+        }
+        #about-link:hover{
+          border-bottom: 5px solid #617A92; // #2D3F51;
+        }
+        #references-link:hover{
+          border-bottom: 5px solid #E4E9E9;
+        }
+        #berufsdetails-link:hover{
+          border-bottom: 5px solid #2B3E50;
+        }
+        #hoerbeispiele-link:hover{
+          border-bottom: 5px solid #F6F8F8;
+        }
+        #kontakt-link:hover{
+          border-bottom: 5px solid #2D353F;
+        }
       }
-      .nav-link:hover{
-        cursor: pointer;
+    }
+  }
+}
+// ********************************* PAGE *********************************
+#page-wrapper{
+  padding-top: 60px;
+}
+#main-content{
+
+  .messages{
+    margin: 0;
+    padding: 0 50px 0 50px;
+    text-align: center;
+    background-image: none;
+  }
+  .about-row,
+  .references-row,
+  .berufsdetails-row,
+  .hoerbeispiele-row,
+  .kontakt-row{
+    padding: 8% 10% 8% 10%;
+    color: #ECECEC;
+  }
+  .about-row,
+  .berufsdetails-row,
+  .hoerbeispiele-row,
+  .kontakt-row{
+    min-height: 600px;
+  }
+
+  // *********************** Home
+  .home-row{
+    // background: #000 url('/sites/all/themes/dave/images/city-test.png') no-repeat;
+    background: #000  url('/sites/all/themes/dave/images/subtle-transparent-bgs/fake_brick.png');
+    // background-size: 100%;
+    // background-attachment: fixed;
+    // padding: 8% 10% 8% 10%;
+    padding: 0;
+
+    .pane-node{
+      background: rgba(34, 34, 34, 0.6);
+    }
+
+    .home-region{
+      @include span-columns(12 omega, 12);
+      height: auto;
+    }
+
+    // *********************** Home Page Slider ****************************
+    .flexslider{
+      @include span-columns(12 omega, 12);
+      border: none;
+      margin-bottom: 0;
+      img{
+        width: 100%;
+        height: auto;
       }
-      .nav-link.selected{
-        color: red;
+      .views-field-body{
+        margin-top: -30%;
+        text-align: center;
+        color: #EEE;
+        background-color: green;
+        .field-content{
+          padding: 5px;
+          background-color: red; //rgba(34, 34, 34, 0.4);
+        }
+        h1{
+          background-color: blue;
+          font-size: 46px;
+        }
+      }
+      .flexslider_views_slideshow_slide{
+      }
+      .flex-control-nav{
+        bottom: 40px;
+        display: none;
+        z-index: 999;
+      }
+      .flex-direction-nav a{
+        line-height: 40px;
+      }
+    }
+
+  }
+  // ********************** About
+  .about-row{
+    // gun_metal, micro_carbon,
+    background: #617A92 url('/sites/all/themes/dave/images/subtle-transparent-bgs/nami.png');
+  }
+  // ********************** References
+  .references-row{
+    color: #2D3F51;
+    background: #E4E9E9;
+    // background: url('/sites/all/themes/dave/images/subtle-transparent-bgs/bgnoise_lg.png');
+    min-height: 300px;
+  }
+  // ********************** Berufsdetails
+  .berufsdetails-row{
+    color: #E4E9E9;
+    background: #2B3E50;
+  }
+  // ********************** Hörbeispiele
+  .hoerbeispiele-row{
+    color: #2B3E50;
+    // noisy, old_wall
+    background: #F6F8F8; // url('/sites/all/themes/dave/images/subtle-transparent-bgs/paper_3.png');
+  }
+  // ********************** Kontakt
+  .kontakt-row{
+    // random_grey_variations
+    background: #2D3540; // url('/sites/all/themes/dave/images/subtle-transparent-bgs/squares.png');;
+    a{
+      color: #EEE;
+    }
+
+    .pane-node{
+      @include span-columns(6, 12);
+    }
+
+    // Kontaktformular
+    .pane-webform-client-block-8{
+      @include span-columns(6 omega, 12);
+
+      .pane-title{
+        visibility: hidden;
+      }
+      label{
+        @include span-columns(4, 12);
+        margin-bottom: 15px;
+      }
+      input{
+        @include span-columns(8 omega, 12);
+        @include border-radius(5px);
+        background-color: #EEE;
+      }
+      .webform-component{
+        min-height: 25px;
+      }
+      #webform-component-nachricht{
+        textarea{
+          background-color: #EEE;
+          @include border-radius(5px);
+        }
+        .grippie{
+          display: none;
+        }
+      }
+      #edit-submit{
+        width: 100%;
+        padding: 5px;
+        border: none;
+        color: #EEE;
+        background: #5F6873;
+        &:hover{
+          background: #4F5762;
+        }
       }
     }
   }
 
+  // *************************** General View Modes ***************************
+  .node-text-with-image-left{
+    img{
+      float: left;
+      margin: 0 3% 3% 0;
+      border: 5px solid #EEE;
+    }
+  }
+
+  .node-text-with-image-right{
+    img{
+      float: right;
+      margin: 0 0 3% 3%;
+      border: 5px solid #EEE;
+    }
+  }
+
+  .node-quote-formatting{
+    .pane-node-body{
+      @include span-columns(12 omega, 12);
+    }
+    .pane-custom{
+      float: left;
+      margin: 0 2% 0 82%;
+      font-weight: bold;
+      .seperator{
+        font-weight: bold;
+      }
+    }
+    .field--name-field-person div{
+      float: left;
+      font-weight: bold;
+    }
+  }
+}
+
+
+// Flexslider general
+.flexslider{
+  border: none;
+  background: none;
+  @include box-shadow(none);
+  margin-bottom: 0;
+
+  .flexslider_views_slideshow_slide{
+  }
+  .flex-control-nav{
+    bottom: 40px;
+    background: green;
+    display: none;
+    z-index: 999;
+  }
+  .flex-direction-nav{
+    line-height: 40px;
+  }
 }

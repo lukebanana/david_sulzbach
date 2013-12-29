@@ -111,12 +111,13 @@
       <div class="title-wrapper"><h1 class="title" id="page-title"><?php print $title; ?></h1></div>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
-    <?php print $messages; ?>
+
     <?php print render($tabs); ?>
 
     <?php if ($action_links): ?>
       <ul class="action-links"><?php print render($action_links); ?></ul>
     <?php endif; ?>
+    <?php print $messages; ?>
     <?php print render($page['content']); ?>
   </div>
 </div>
