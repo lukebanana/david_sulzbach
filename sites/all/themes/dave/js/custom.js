@@ -5,17 +5,20 @@ function changeMenuActiveClass(activeClass){
   $(activeClass).removeClass("not-selected").addClass("selected");
 }
 
-function adjustContainerHeight(){
+function setContainerHeight(){
   $(".home-row .flexslider_views_slideshow_slide, .home-row").css("height", $(".home-row .views-field-field-slider-bild").css("height"));
+
 }
 
 // Resize height of Slider Element when window is resized
-$(window).resize(adjustContainerHeight);
+$(window).resize(setContainerHeight);
 
 
-jQuery(document).ready(function() {
+//After images are loaded
+$(window).load(function(){
 
-  adjustContainerHeight();
+  // Set height for container after all images are loaded
+  setContainerHeight();
 
   // Find out top offsets for scrolling function
   var homePos = $(".home-row").offset().top;
@@ -25,7 +28,7 @@ jQuery(document).ready(function() {
   var berufsPos = $(".berufsdetails-row").offset().top;
   var kontaktPos = $(".kontakt-row").offset().top;
 
-
+  // Array with link IDs and matching row classes
   var array = [["#home-link", ".home-row"],
               ["#about-link", ".about-row"],
               ["#references-link", ".references-row"],
@@ -37,8 +40,7 @@ jQuery(document).ready(function() {
   $(".nav-link").first().addClass("selected");
 
 
-
-  // Create Click function for each link/row
+  // Create click function for each link/row
   array.forEach(function(entry) {
       $(entry[0]).click(function() {
         // Scroll to position of row, minus size of the header (overlapping)
@@ -50,7 +52,7 @@ jQuery(document).ready(function() {
 
 
 
-  // Menu links reagiert auf scrolling
+  // Menu links reacts to scrolling
   $(window).scroll(function() {
     var currentPosition = $(window).scrollTop();
     currentPosition += $("#header-wrapper").height();
