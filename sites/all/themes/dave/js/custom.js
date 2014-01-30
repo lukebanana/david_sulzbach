@@ -95,7 +95,7 @@ $(window).load(function(){
     // change active classes
     if(currentPosition >= homePos && currentPosition <= aboutPos){
       changeMenuActiveClass("#home-link");
-    }else if(currentPosition >= aboutPos && currentPosition <= referPos){
+    }else if(currentPosition >= aboutPos && currentPosition <= hoerPos){
       changeMenuActiveClass("#about-link");
     }else if(currentPosition >= hoerPos && currentPosition <= referPos){
       changeMenuActiveClass("#hoerbeispiele-link");
