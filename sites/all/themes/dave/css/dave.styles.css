@@ -33,7 +33,7 @@ img, media {
   @media (min-width: 620px) and (max-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000328}}
     #header-wrapper {
-      padding: 0; } }
+      padding: 0 2% 0 2%; } }
   @media (min-width: 0px) and (max-width: 620px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\0000328}}
     #header-wrapper {

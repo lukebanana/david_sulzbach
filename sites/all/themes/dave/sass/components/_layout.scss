@@ -32,7 +32,7 @@
   z-index: 100;
 
   @include at-breakpoint($tablet) {
-    padding: 0;
+    padding: 0 2% 0 2%;
   }
   @include at-breakpoint($mobile) {
     padding: 0 3% 0 3%;
