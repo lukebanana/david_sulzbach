@@ -30,7 +30,7 @@
   padding: 0 2% 0 2%;
   background: white;
   z-index: 100;
-  // border-bottom: 1px solid #CECECE;
+
   @include at-breakpoint($tablet) {
     padding: 0;
   }
@@ -86,7 +86,6 @@
           font-weight: 300;
           text-transform: uppercase;
           text-decoration: none;
-          // width: 16.666%;
           margin-right: 0;
           float: left;
           text-align: center;
@@ -118,7 +117,7 @@
         }
         .nav-link:hover{
           cursor: pointer;
-          background: rgba(189, 195, 199, 0.5); // #BDC3C7;
+          background: rgba(189, 195, 199, 0.5);
           color: white;
           padding-bottom: 15px;
           border-bottom: 5px solid #2D3F51;
@@ -129,8 +128,7 @@
         }
 
         .nav-link.selected{
-          color: #5E768D; // #E74C3C;
-          // font-weight: 400;
+          color: #5E768D;
           border-bottom: 5px solid #EFEFEF;
           @include at-breakpoint($mobile) {
             padding-bottom: 15px;
@@ -143,13 +141,12 @@
           }
         }
 
-
         // Different Bottom-Borders for different sections
         #home-link:hover{
           border-bottom: 5px solid black;
         }
         #about-link:hover{
-          border-bottom: 5px solid #617A92; // #2D3F51;
+          border-bottom: 5px solid #617A92;
         }
         #references-link:hover{
           border-bottom: 5px solid #E4E9E9;
@@ -239,11 +236,7 @@
 
   // *********************** Home
   .home-row{
-    // background: #000 url('/sites/all/themes/dave/images/city-test.png') no-repeat;
-    background: #000  url('/sites/all/themes/dave/images/subtle-transparent-bgs/fake_brick.png');
-    // background-size: 100%;
-    // background-attachment: fixed;
-    // padding: 8% 10% 8% 10%;
+    background: #000 url('/sites/all/themes/dave/images/subtle-transparent-bgs/fake_brick.png');
     padding: 0;
 
     .pane-node{
@@ -307,18 +300,12 @@
   }
   // ********************** About
   .about-row{
-    // gun_metal, micro_carbon,
     background: #617A92 url('/sites/all/themes/dave/images/subtle-transparent-bgs/nami.png');
-
-    .panels-flexible-region-inside{
-    //  float: left;
-    }
   }
   // ********************** References
   .references-row{
     color: #2D3F51;
     background: #E4E9E9;
-    // background: url('/sites/all/themes/dave/images/subtle-transparent-bgs/bgnoise_lg.png');
     min-height: 300px;
     @include at-breakpoint($mobile) {
       min-height: 200px;
@@ -335,7 +322,6 @@
     // noisy, old_wall
     background: #F6F8F8 url('/sites/all/themes/dave/images/Headphones1080p_sharper.jpg') no-repeat;
     background-size: 100%;
-    // url('/sites/all/themes/dave/images/subtle-transparent-bgs/paper_3.png');
 
     @include at-breakpoint($mobile) {
        background: #F6F8F8;
@@ -343,8 +329,7 @@
   }
   // ********************** Kontakt
   .kontakt-row{
-    // random_grey_variations
-    background: #2D3540; // url('/sites/all/themes/dave/images/subtle-transparent-bgs/squares.png');;
+    background: #2D3540;
     a{
       color: #EEE;
     }
@@ -490,6 +475,7 @@
     }
   }
 
+  // Quote formatting view mode
   .node-quote-formatting{
     .pane-node-body{
       @include span-columns(12 omega, 12);
@@ -508,6 +494,7 @@
     }
   }
 
+  // Hörbeispiele
   .node-h-rbeispiele{
     .jp-audio{
 
@@ -590,7 +577,7 @@
 }
 
 
-// Flexslider general
+// **** Flexslider general ****
 .flexslider{
   border: none;
   background: none;
