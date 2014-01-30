@@ -52,7 +52,7 @@
       }
       @include at-breakpoint($mobile) {
         @include span-columns(4, 12);
-        padding-top: 7px;
+        padding-top: 6px;
       }
     }
 
