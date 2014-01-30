@@ -12,7 +12,13 @@
   a{
     color: black;
   }
+  p{
+    @include at-breakpoint($mobile) {
+      text-align: justify;
+    }
+  }
 }
+
 
 // **************************** HEADER ********************************
 #header-wrapper{
@@ -21,6 +27,12 @@
   background: white;
   z-index: 100;
   // border-bottom: 1px solid #CECECE;
+  @include at-breakpoint($tablet) {
+    padding: 0;
+  }
+  @include at-breakpoint($mobile) {
+    padding: 0 3% 0 3%;
+  }
 
   @include span-columns(1 omega, 1);
 
@@ -32,19 +44,40 @@
       #logo{
         height: 50px;
         width: 150px;
+        background-color: #EEE;
+      }
+      @include at-breakpoint($mobile) {
+        @include span-columns(4, 12);
       }
     }
 
     #navigation-bar{
       @include span-columns(10 omega, 12);
+      display: block;
+
+      @include at-breakpoint($mobile) {
+        display: none;
+        @include span-columns(12 omega, 12);
+      }
 
       #navigation-wrapper{
         float: right;
         width: 710px;
+        @include at-breakpoint($mobile) {
+          width: 400px;
+          @include span-columns(12 omega, 12);
+        }
+        @include at-breakpoint($tablet) {
+          width: 550px;
+        }
+        @include at-breakpoint($small-desktop) {
+          width: 655px;
+        }
 
         .nav-link{
           font-size: 16px;
-          padding: 20px 0px 15px 0px;
+          padding-top: 20px;
+          padding-bottom: 15px;
           padding-right: 3.2%;
           padding-left: 3.2%;
           font-weight: 300;
@@ -54,25 +87,59 @@
           margin-right: 0;
           float: left;
           text-align: center;
+
+          @include at-breakpoint($small-desktop) {
+            padding-right: 2.8%;
+            padding-left: 2.8%;
+          }
+          @include at-breakpoint($tablet) {
+            font-size: 16px;
+            padding-right: 1.5%;
+            padding-left: 1.5%;
+          }
+          @include at-breakpoint($mobile) {
+            @include span-columns(12 omega, 12);
+            padding-bottom: 20px;
+          }
+
         }
+
+        .nav-link:first-child{
+          @include at-breakpoint($mobile) {
+            border-top: 1px solid #EEE;
+          }
+        }
+
         .nav-link:last-child{
           margin-right: 0;
         }
         .nav-link:hover{
           cursor: pointer;
-          background: #BDC3C7;
+          background: rgba(189, 195, 199, 0.5); // #BDC3C7;
           color: white;
           padding-bottom: 15px;
           border-bottom: 5px solid #2D3F51;
+          @include at-breakpoint($mobile) {
+            padding-bottom: 20px;
+          }
+
         }
-        .nav-link.selected:hover{
-          color: white;
-        }
+
         .nav-link.selected{
           color: #5E768D; // #E74C3C;
           // font-weight: 400;
           border-bottom: 5px solid #EFEFEF;
+          @include at-breakpoint($mobile) {
+            padding-bottom: 15px;
+          }
         }
+        .nav-link.selected:hover{
+          color: white;
+          @include at-breakpoint($mobile) {
+            padding-bottom: 20px;
+          }
+        }
+
 
         // Different Bottom-Borders for different sections
         #home-link:hover{
@@ -93,13 +160,50 @@
         #kontakt-link:hover{
           border-bottom: 5px solid #2D353F;
         }
+
+        #home-link:hover,
+        #about-link:hover,
+        #references-link:hover,
+        #berufsdetails-link:hover,
+        #hoerbeispiele-link:hover,
+        #kontakt-link:hover{
+          @include at-breakpoint($mobile) {
+            border-bottom: none;
+          }
+        }
       }
     }
   }
+
+  // Mobile Menu
+  #header-mobile-menu{
+    @include span-columns(8 omega, 12);
+    display: none;
+
+    @include at-breakpoint($mobile) {
+      display: block;
+    }
+    .mobile-menu-link{
+      float: right;
+      margin: 12px 0 0 0;
+      width: 30px;
+      height: 30px;
+      background: url('/sites/all/themes/dave/images/Mobile-Menu-Icon.png') no-repeat;
+      background-size: 100%;
+    }
+  }
+
 }
 // ********************************* PAGE *********************************
 #page-wrapper{
   padding-top: 60px;
+  @include at-breakpoint($mobile) {
+    padding-top: 55px;
+  }
+
+  .panels-flexible-region{
+    width: 100%;
+  }
 }
 #main-content{
 
@@ -116,12 +220,18 @@
   .kontakt-row{
     padding: 8% 10% 8% 10%;
     color: #ECECEC;
+    @include at-breakpoint($mobile) {
+       padding: 8% 6% 8% 6%;
+    }
   }
   .about-row,
   .berufsdetails-row,
   .hoerbeispiele-row,
   .kontakt-row{
     min-height: 600px;
+    @include at-breakpoint($mobile) {
+      min-height: 500px;
+    }
   }
 
   // *********************** Home
@@ -152,20 +262,31 @@
         height: auto;
       }
       .views-field-body{
-        margin-top: -30%;
+        width: 100%;
         text-align: center;
+        position: absolute;
+        bottom: 16%;
         color: #EEE;
         //background-color: green;
         z-index: 999;
         .field-content{
-          padding: 5px;
-          //background-color: red; //rgba(34, 34, 34, 0.4);
+          padding: 10px;
+          background-color: rgba(34, 34, 34, 0.4);
           z-index: 999;
         }
         h1{
-          background-color: blue;
+          text-align: center;
           z-index: 999;
           font-size: 46px;
+          margin-bottom: 0;
+
+          @include at-breakpoint($tablet) {
+            font-size: 36px;
+          }
+
+          @include at-breakpoint($mobile) {
+            font-size: 20px;
+          }
         }
       }
       .flexslider_views_slideshow_slide{
@@ -185,6 +306,10 @@
   .about-row{
     // gun_metal, micro_carbon,
     background: #617A92 url('/sites/all/themes/dave/images/subtle-transparent-bgs/nami.png');
+
+    .panels-flexible-region-inside{
+    //  float: left;
+    }
   }
   // ********************** References
   .references-row{
@@ -205,6 +330,10 @@
     background: #F6F8F8 url('/sites/all/themes/dave/images/Headphones1080p_sharper.jpg') no-repeat;
     background-size: 100%;
     // url('/sites/all/themes/dave/images/subtle-transparent-bgs/paper_3.png');
+
+    @include at-breakpoint($mobile) {
+       background: #F6F8F8;
+    }
   }
   // ********************** Kontakt
   .kontakt-row{
@@ -216,23 +345,51 @@
 
     .pane-node{
       @include span-columns(6, 12);
+      @include at-breakpoint($mobile) {
+        @include span-columns(12 omega, 12);
+      }
     }
 
-    // Kontaktformular
+    // ********************* Kontaktformular **************************
     .pane-webform-client-block-8{
       @include span-columns(6 omega, 12);
 
+      @include at-breakpoint($mobile) {
+        @include span-columns(12 omega, 12);
+        margin-top: 30px;
+      }
+
+      .pane-node{
+        @include at-breakpoint($mobile) {
+          margin-bottom: 15px;
+        }
+      }
+
       .pane-title{
+        // To maintain relations
         visibility: hidden;
+        @include at-breakpoint($mobile) {
+          display: none;
+        }
       }
       label{
         @include span-columns(4, 12);
-        margin-bottom: 15px;
+        margin-bottom: 10px;
+        line-height: 26px;
+        @include at-breakpoint($mobile) {
+          @include span-columns(12 omega, 12);
+        }
       }
       input{
         @include span-columns(8 omega, 12);
         @include border-radius(5px);
         background-color: #EEE;
+        border: none;
+        @include at-breakpoint($mobile) {
+          @include span-columns(12 omega, 12);
+          margin-bottom: 10px;
+          height: 30px;
+        }
       }
       .webform-component{
         min-height: 25px;
@@ -246,6 +403,7 @@
           display: none;
         }
       }
+
       #edit-submit{
         width: 100%;
         padding: 5px;
@@ -255,6 +413,10 @@
         &:hover{
           background: #4F5762;
         }
+        height: auto;
+        @include at-breakpoint($mobile) {
+          padding: 8px 5px;
+        }
       }
     }
   }
@@ -263,16 +425,46 @@
   .node-text-with-image-left{
     img{
       float: left;
+      height: auto;
       margin: 0 3% 3% 0;
       border: 5px solid #EEE;
+      @include at-breakpoint($mobile) {
+        @include span-columns(12 omega, 12);
+        margin: 0 0 3% 0;
+      }
     }
   }
 
   .node-text-with-image-right{
+    .field--name-body{
+      @include span-columns(6, 12);
+
+      @include at-breakpoint($mobile) {
+        @include span-columns(12 omega, 12);
+      }
+
+      p{
+        margin-top: 0;
+      }
+    }
+
+    .field--name-field-bild{
+      @include span-columns(6 omega, 12);
+
+      @include at-breakpoint($mobile) {
+        @include span-columns(12 omega, 12);
+
+      }
+    }
     img{
       float: right;
+      height: auto;
       margin: 0 0 3% 3%;
       border: 5px solid #EEE;
+      @include at-breakpoint($mobile) {
+        @include span-columns(12 omega, 12);
+        margin: 0 0 3% 0;
+      }
     }
   }
 
@@ -281,25 +473,93 @@
       @include span-columns(12 omega, 12);
     }
     .pane-custom{
-      float: left;
-      margin: 0 2% 0 82%;
+      float: right;
+      margin: 0 2% 0 0;
       font-weight: bold;
       .seperator{
         font-weight: bold;
       }
     }
     .field--name-field-person div{
-      float: left;
+      float: right;
       font-weight: bold;
     }
   }
 
   .node-h-rbeispiele{
     .jp-audio{
+
+      @include at-breakpoint($mobile) {
+        @include span-columns(12 omega, 12);
+      }
+
       .jp-interface{
         border: none;
         margin-bottom: 5px;
+
+        @include at-breakpoint($mobile) {
+          @include span-columns(12 omega, 12);
+          height: 130px;
+        }
+
+        .jp-controls{
+          @include at-breakpoint($mobile) {
+            @include span-columns(12 omega, 12);
+            height: 75px;
+            position: relative;
+          }
+
+          .jp-mute, .jp-unmute{
+            @include at-breakpoint($mobile) {
+              //margin: 12% 75%;
+              // position: relative;
+              top: 100%;
+              left: 85%;
+              float: left;
+            }
+
+          }
+        }
+
+        .jp-progress, .jp-volume-bar, .jp-current-time, .jp-duration{
+          @include at-breakpoint($mobile) {
+            position: relative;
+            top: 0;
+            left: 0;
+            float: left;
+          }
+        }
+
+        .jp-progress{
+          @include at-breakpoint($mobile) {
+            @include pre(1, 12);
+            @include span-columns(5, 12);
+          }
+        }
+        .jp-volume-bar{
+          @include at-breakpoint($mobile) {
+            @include span-columns(4, 12);
+            @include post(1, 12);
+            margin: 5px 0 5px 0;
+          }
+        }
+
+        .jp-current-time{
+           @include at-breakpoint($mobile) {
+            @include pre(1, 12);
+            @include span-columns(3, 12);
+          }
+        }
+
+
+        .jp-duration{
+          @include at-breakpoint($mobile) {
+            @include span-columns(2, 12);
+          }
+        }
+
       }
+
       .jp-playlist{
         border: none;
       }
@@ -327,3 +587,34 @@
     line-height: 40px;
   }
 }
+
+
+// ************************** Typography ****************************
+
+#page-wrapper{
+  p, div, a, span{
+    font-size: 18px;
+    line-height: 20px;
+
+    @include at-breakpoint($mobile) {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+
+  h1, h2, h3, h4, h5{
+    margin-top: 0;
+  }
+
+  h2{
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 500;
+    @include at-breakpoint($mobile) {
+      font-size: 28px;
+      margin-bottom: 8%;
+    }
+  }
+
+}
+

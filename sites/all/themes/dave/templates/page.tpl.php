@@ -82,7 +82,12 @@
         <?php endif; ?>
       </hgroup>
     <?php endif; ?>
+    <div id="header-mobile-menu">
+      <a class="mobile-menu-link" href="#"></a>
+    </div>
+
     <?php print render($page['header']); ?>
+
   </header>
 </div>
 <div id="page-wrapper">
