@@ -45,13 +45,14 @@
 
     #logo-wrapper{
       @include span-columns(2, 12);
-	  padding-top: 0.5%;
+      padding-top: 9px;
       #logo{
         height: auto;
         width: 80px;
       }
       @include at-breakpoint($mobile) {
         @include span-columns(4, 12);
+        padding-top: 7px;
       }
     }
 
