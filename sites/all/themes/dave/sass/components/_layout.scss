@@ -320,6 +320,9 @@
     background: #E4E9E9;
     // background: url('/sites/all/themes/dave/images/subtle-transparent-bgs/bgnoise_lg.png');
     min-height: 300px;
+    @include at-breakpoint($mobile) {
+      min-height: 200px;
+    }
   }
   // ********************** Berufsdetails
   .berufsdetails-row{

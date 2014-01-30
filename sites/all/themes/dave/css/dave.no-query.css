@@ -318,61 +318,65 @@ img, media {
   color: #2D3F51;
   background: #E4E9E9;
   min-height: 300px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003325}}
+  @media (min-width: 0px) and (max-width: 620px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003318}}
+    #main-content .references-row {
+      min-height: 200px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003328}}
 #main-content .berufsdetails-row {
   color: #E4E9E9;
   background: #2B3E50; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003333}}
 #main-content .hoerbeispiele-row {
   color: #2B3E50;
   background: #f6f8f8 url("/sites/all/themes/dave/images/Headphones1080p_sharper.jpg") no-repeat;
   background-size: 100%; }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003333}}
     #main-content .hoerbeispiele-row {
       background: #F6F8F8; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003345}}
 #main-content .kontakt-row {
   background: #2D3540; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003348}}
   #main-content .kontakt-row a {
     color: #EEE; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003352}}
   #main-content .kontakt-row .pane-node {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%; }
     @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003352}}
       #main-content .kontakt-row .pane-node {
         width: 100%;
         float: right;
         margin-right: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003360}}
   #main-content .kontakt-row .pane-webform-client-block-8 {
     width: 49.15254%;
     float: right;
     margin-right: 0;
     *margin-left: -16px; }
     @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003360}}
       #main-content .kontakt-row .pane-webform-client-block-8 {
         width: 100%;
         float: right;
         margin-right: 0;
         margin-top: 30px; } }
     @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003368}}
       #main-content .kontakt-row .pane-webform-client-block-8 .pane-node {
         margin-bottom: 15px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003374}}
     #main-content .kontakt-row .pane-webform-client-block-8 .pane-title {
       visibility: hidden; }
       @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003374}}
         #main-content .kontakt-row .pane-webform-client-block-8 .pane-title {
           display: none; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003381}}
     #main-content .kontakt-row .pane-webform-client-block-8 label {
       width: 32.20339%;
       float: left;
@@ -380,24 +384,24 @@ img, media {
       margin-bottom: 10px;
       line-height: 26px; }
       @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003381}}
         #main-content .kontakt-row .pane-webform-client-block-8 label {
           width: 100%;
           float: right;
           margin-right: 0; } }
       @media (min-width: 620px) and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003381}}
         #main-content .kontakt-row .pane-webform-client-block-8 label {
           width: 100%;
           float: right;
           margin-right: 0; } }
       @media (min-width: 800px) and (max-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003381}}
         #main-content .kontakt-row .pane-webform-client-block-8 label {
           width: 100%;
           float: right;
           margin-right: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003395}}
     #main-content .kontakt-row .pane-webform-client-block-8 input {
       width: 66.10169%;
       float: right;
@@ -411,7 +415,7 @@ img, media {
       background-color: #EEE;
       border: none; }
       @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003395}}
         #main-content .kontakt-row .pane-webform-client-block-8 input {
           width: 100%;
           float: right;
@@ -419,7 +423,7 @@ img, media {
           margin-bottom: 10px;
           height: 30px; } }
       @media (min-width: 620px) and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003395}}
         #main-content .kontakt-row .pane-webform-client-block-8 input {
           width: 100%;
           float: right;
@@ -427,17 +431,17 @@ img, media {
           margin-bottom: 10px;
           height: 30px; } }
       @media (min-width: 800px) and (max-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003395}}
         #main-content .kontakt-row .pane-webform-client-block-8 input {
           width: 100%;
           float: right;
           margin-right: 0;
           margin-bottom: 10px;
           height: 30px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003416}}
     #main-content .kontakt-row .pane-webform-client-block-8 .webform-component {
       min-height: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003420}}
     #main-content .kontakt-row .pane-webform-client-block-8 #webform-component-nachricht textarea {
       background-color: #EEE;
       -webkit-border-radius: 5px;
@@ -445,10 +449,10 @@ img, media {
       -ms-border-radius: 5px;
       -o-border-radius: 5px;
       border-radius: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003424}}
     #main-content .kontakt-row .pane-webform-client-block-8 #webform-component-nachricht .grippie {
       display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003429}}
     #main-content .kontakt-row .pane-webform-client-block-8 #edit-submit {
       width: 100%;
       padding: 5px;
@@ -456,102 +460,102 @@ img, media {
       color: #EEE;
       background: #5F6873;
       height: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003432}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003435}}
       #main-content .kontakt-row .pane-webform-client-block-8 #edit-submit:hover {
         background: #4F5762; }
       @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003429}}
         #main-content .kontakt-row .pane-webform-client-block-8 #edit-submit {
           padding: 8px 5px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003448}}
 #main-content .node-text-with-image-left img {
   float: left;
   height: auto;
   margin: 0 3% 3% 0;
   border: 5px solid #EEE; }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003448}}
     #main-content .node-text-with-image-left img {
       width: 100%;
       float: right;
       margin-right: 0;
       margin: 0 0 3% 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003461}}
 #main-content .node-text-with-image-right .field--name-body {
   width: 49.15254%;
   float: left;
   margin-right: 1.69492%; }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003461}}
     #main-content .node-text-with-image-right .field--name-body {
       width: 100%;
       float: right;
       margin-right: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003465}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003468}}
   #main-content .node-text-with-image-right .field--name-body p {
     margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003470}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003473}}
 #main-content .node-text-with-image-right .field--name-field-bild {
   width: 49.15254%;
   float: right;
   margin-right: 0;
   *margin-left: -16px; }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003470}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003473}}
     #main-content .node-text-with-image-right .field--name-field-bild {
       width: 100%;
       float: right;
       margin-right: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003481}}
 #main-content .node-text-with-image-right img {
   float: right;
   height: auto;
   margin: 0 0 3% 3%;
   border: 5px solid #EEE; }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003481}}
     #main-content .node-text-with-image-right img {
       width: 100%;
       float: right;
       margin-right: 0;
       margin: 0 0 3% 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003494}}
 #main-content .node-quote-formatting .pane-node-body {
   width: 100%;
   float: right;
   margin-right: 0;
   *margin-left: -16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003494}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003497}}
 #main-content .node-quote-formatting .pane-custom {
   float: right;
   margin: 0 2% 0 0;
   font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003501}}
   #main-content .node-quote-formatting .pane-custom .seperator {
     font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003502}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003505}}
 #main-content .node-quote-formatting .field--name-field-person div {
   float: right;
   font-weight: bold; }
 @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003509}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003512}}
   #main-content .node-h-rbeispiele .jp-audio {
     width: 100%;
     float: right;
     margin-right: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003518}}
 #main-content .node-h-rbeispiele .jp-audio .jp-interface {
   border: none;
   margin-bottom: 5px; }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003518}}
     #main-content .node-h-rbeispiele .jp-audio .jp-interface {
       width: 100%;
       float: right;
       margin-right: 0;
       height: 130px; } }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003527}}
     #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-controls {
       width: 100%;
       float: right;
@@ -559,27 +563,27 @@ img, media {
       height: 75px;
       position: relative; } }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003534}}
     #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-controls .jp-mute, #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-controls .jp-unmute {
       top: 100%;
       left: 85%;
       float: left; } }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003546}}
     #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-progress, #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-volume-bar, #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-current-time, #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-duration {
       position: relative;
       top: 0;
       left: 0;
       float: left; } }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003555}}
     #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-progress {
       margin-left: 8.47458%;
       width: 40.67797%;
       float: left;
       margin-right: 1.69492%; } }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003558}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003561}}
     #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-volume-bar {
       width: 32.20339%;
       float: left;
@@ -587,23 +591,23 @@ img, media {
       margin-right: 8.47458%;
       margin: 5px 0 5px 0; } }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003566}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003569}}
     #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-current-time {
       margin-left: 8.47458%;
       width: 23.72881%;
       float: left;
       margin-right: 1.69492%; } }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003574}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003577}}
     #main-content .node-h-rbeispiele .jp-audio .jp-interface .jp-duration {
       width: 15.25424%;
       float: left;
       margin-right: 1.69492%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003585}}
 #main-content .node-h-rbeispiele .jp-audio .jp-playlist {
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003591}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003594}}
 .flexslider {
   border: none;
   background: none;
@@ -611,35 +615,35 @@ img, media {
   -moz-box-shadow: none;
   box-shadow: none;
   margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003599}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003602}}
   .flexslider .flex-control-nav {
     bottom: 40px;
     background: green;
     display: none;
     z-index: 999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003608}}
   .flexslider .flex-direction-nav {
     line-height: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003614}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003617}}
 #page-wrapper p, #page-wrapper div, #page-wrapper a, #page-wrapper span {
   font-size: 18px;
   line-height: 20px; }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003614}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003617}}
     #page-wrapper p, #page-wrapper div, #page-wrapper a, #page-wrapper span {
       font-size: 16px;
       line-height: 18px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003627}}
 #page-wrapper h1, #page-wrapper h2, #page-wrapper h3, #page-wrapper h4, #page-wrapper h5 {
   margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003631}}
 #page-wrapper h2 {
   font-size: 36px;
   line-height: 30px;
   font-weight: 500; }
   @media (min-width: 0px) and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Luke\/Documents\/Web-Projects\/david_sulzbach\/sites\/all\/themes\/dave\/sass\/components\/_layout\.scss}line{font-family:\00003631}}
     #page-wrapper h2 {
       font-size: 28px;
       margin-bottom: 8%; } }
