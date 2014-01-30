@@ -379,6 +379,12 @@
         @include at-breakpoint($mobile) {
           @include span-columns(12 omega, 12);
         }
+        @include at-breakpoint($tablet) {
+          @include span-columns(12 omega, 12);
+        }
+        @include at-breakpoint($small-desktop) {
+          @include span-columns(12 omega, 12);
+        }
       }
       input{
         @include span-columns(8 omega, 12);
@@ -386,6 +392,16 @@
         background-color: #EEE;
         border: none;
         @include at-breakpoint($mobile) {
+          @include span-columns(12 omega, 12);
+          margin-bottom: 10px;
+          height: 30px;
+        }
+        @include at-breakpoint($tablet) {
+          @include span-columns(12 omega, 12);
+          margin-bottom: 10px;
+          height: 30px;
+        }
+        @include at-breakpoint($small-desktop) {
           @include span-columns(12 omega, 12);
           margin-bottom: 10px;
           height: 30px;
