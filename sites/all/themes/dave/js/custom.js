@@ -51,16 +51,16 @@ $(window).load(function(){
   // Find out top offsets for scrolling function
   var homePos = $(".home-row").offset().top;
   var aboutPos = $(".about-row").offset().top;
-  var referPos = $(".references-row").offset().top;
   var hoerPos = $(".hoerbeispiele-row").offset().top;
+  var referPos = $(".references-row").offset().top;
   var berufsPos = $(".berufsdetails-row").offset().top;
   var kontaktPos = $(".kontakt-row").offset().top;
 
   // Array with link IDs and matching row classes
   var array = [["#home-link", ".home-row"],
               ["#about-link", ".about-row"],
-              ["#references-link", ".references-row"],
               ["#hoerbeispiele-link", ".hoerbeispiele-row"],
+              ["#references-link", ".references-row"],
               ["#berufsdetails-link", ".berufsdetails-row"],
               ["#kontakt-link", ".kontakt-row"]
             ];
@@ -97,10 +97,10 @@ $(window).load(function(){
       changeMenuActiveClass("#home-link");
     }else if(currentPosition >= aboutPos && currentPosition <= referPos){
       changeMenuActiveClass("#about-link");
-    }else if(currentPosition >= referPos && currentPosition <= hoerPos){
-      changeMenuActiveClass("#references-link");
-    }else if(currentPosition >= hoerPos && currentPosition <= berufsPos){
+    }else if(currentPosition >= hoerPos && currentPosition <= referPos){
       changeMenuActiveClass("#hoerbeispiele-link");
+    }else if(currentPosition >= referPos && currentPosition <= berufsPos){
+      changeMenuActiveClass("#references-link");
     }else if(currentPosition >= berufsPos && currentPosition <= kontaktPos){
       changeMenuActiveClass("#berufsdetails-link");
     }else if(currentPosition >= kontaktPos){
