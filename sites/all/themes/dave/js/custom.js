@@ -1,5 +1,5 @@
 var $ = jQuery.noConflict();
-var mobileDeviceWidth = 620;
+var mobileDeviceWidth = 720;
 var navigationBarVisible = 1;
 
 // Changes active class of Navigation Links
