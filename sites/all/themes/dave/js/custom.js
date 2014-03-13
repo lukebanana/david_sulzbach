@@ -44,8 +44,8 @@ $(window).resize(refreshSizes);
 //After images are loaded
 $(window).load(function(){
 
+  // Check if mobile device is used
   var isMobileDevice = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
-  alert("Mobile Device? " + isMobileDevice);
 
   // Set height for container after all images are loaded
   setContainerHeight();
