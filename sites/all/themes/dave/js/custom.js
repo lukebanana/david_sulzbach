@@ -69,7 +69,8 @@ $(window).load(function(){
 
 
   // Create Click Function for mobile menu link
-  $('.mobile-menu-link').click(function() {
+  $('.mobile-menu-link').click(function(e) {
+    e.preventDefault(); // Prevents Slidetoggle from scrolling back to the top
     $('#navigation-bar').slideToggle('slow/400/fast');
   });
 
