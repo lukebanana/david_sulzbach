@@ -1,4 +1,5 @@
 var $ = jQuery.noConflict();
+var deviceWidth = $(window).width();
 var mobileDeviceWidth = 720;
 var navigationBarVisible = 1;
 
@@ -26,6 +27,9 @@ function toggleNavigationVisibility(status){
 function refreshSizes(){
   setContainerHeight();
 
+  // Find out device width
+  deviceWidth = $(window).width();
+
   if($(window).width() > mobileDeviceWidth){
     toggleNavigationVisibility(true);
   }else{
@@ -40,11 +44,11 @@ $(window).resize(refreshSizes);
 //After images are loaded
 $(window).load(function(){
 
+  var isMobileDevice = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
+  alert("Mobile Device? " + isMobileDevice);
+
   // Set height for container after all images are loaded
   setContainerHeight();
-
-  // Find out device width
-  var deviceWidth = $(window).width();
 
   var headerWrapperHeight = $("#header-wrapper").height();
 
