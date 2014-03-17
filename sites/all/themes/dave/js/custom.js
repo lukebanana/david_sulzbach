@@ -102,8 +102,9 @@ $(window).load(function(){
   $(window).scroll(function() {
     var currentPosition = 0;
 
+    // iPad/iPhone scroll issue solving attempt
     if(isMobileDevice){
-      currentPosition= window.pageYOffset
+      currentPosition= window.pageYOffset;
     }else{
       currentPosition = $(window).scrollTop();
     }
@@ -124,6 +125,34 @@ $(window).load(function(){
       changeMenuActiveClass("#kontakt-link");
     }
 
+  });
+
+  $('body').bind('touchmove', function(e) {
+
+    var currentPosition = 0;
+
+    // iPad/iPhone scroll issue solving attempt
+    if(isMobileDevice){
+      currentPosition= window.pageYOffset;
+    }else{
+      currentPosition = $(window).scrollTop();
+    }
+    currentPosition += $("#header-wrapper").height();
+
+    // change active classes
+    if(currentPosition >= homePos && currentPosition <= aboutPos){
+      changeMenuActiveClass("#home-link");
+    }else if(currentPosition >= aboutPos && currentPosition <= hoerPos){
+      changeMenuActiveClass("#about-link");
+    }else if(currentPosition >= hoerPos && currentPosition <= referPos){
+      changeMenuActiveClass("#hoerbeispiele-link");
+    }else if(currentPosition >= referPos && currentPosition <= berufsPos){
+      changeMenuActiveClass("#references-link");
+    }else if(currentPosition >= berufsPos && currentPosition <= kontaktPos){
+      changeMenuActiveClass("#berufsdetails-link");
+    }else if(currentPosition >= kontaktPos){
+      changeMenuActiveClass("#kontakt-link");
+    }
   });
 
   // Initialize Stellar.js
