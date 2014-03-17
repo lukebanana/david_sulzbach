@@ -47,7 +47,9 @@ $(window).load(function(){
   // Check if mobile device is used
   var isMobileDevice = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
 
-  FastClick.attach(document.body);
+  if(isMobileDevice){
+    FastClick.attach(document.body);
+  }
 
   // Set height for container after all images are loaded
   setContainerHeight();
@@ -98,7 +100,13 @@ $(window).load(function(){
 
   // Menu links reacts to scrolling
   $(window).scroll(function() {
-    var currentPosition = $(window).scrollTop();
+    var currentPosition = 0;
+
+    if(isMobileDevice){
+      currentPosition= window.pageYOffset
+    }else{
+      currentPosition = $(window).scrollTop();
+    }
     currentPosition += $("#header-wrapper").height();
 
     // change active classes
