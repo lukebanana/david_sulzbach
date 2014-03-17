@@ -3,6 +3,41 @@ var deviceWidth = $(window).width();
 var mobileDeviceWidth = 720;
 var navigationBarVisible = 1;
 
+// Find out top offsets for scrolling function
+var homePos;
+var aboutPos;
+var hoerPos;
+var referPos;
+var berufsPos;
+var kontaktPos;
+
+// Check current position and corresponding active menu class
+function checkActiveMenuClass(currentPosition){
+
+  // Find out top offsets for scrolling function
+  homePos = $(".home-row").offset().top;
+  aboutPos = $(".about-row").offset().top;
+  hoerPos = $(".hoerbeispiele-row").offset().top;
+  referPos = $(".references-row").offset().top;
+  berufsPos = $(".berufsdetails-row").offset().top;
+  kontaktPos = $(".kontakt-row").offset().top;
+
+  // change active classes
+  if(currentPosition >= homePos && currentPosition <= aboutPos){
+    changeMenuActiveClass("#home-link");
+  }else if(currentPosition >= aboutPos && currentPosition <= hoerPos){
+    changeMenuActiveClass("#about-link");
+  }else if(currentPosition >= hoerPos && currentPosition <= referPos){
+    changeMenuActiveClass("#hoerbeispiele-link");
+  }else if(currentPosition >= referPos && currentPosition <= berufsPos){
+    changeMenuActiveClass("#references-link");
+  }else if(currentPosition >= berufsPos && currentPosition <= kontaktPos){
+    changeMenuActiveClass("#berufsdetails-link");
+  }else if(currentPosition >= kontaktPos){
+    changeMenuActiveClass("#kontakt-link");
+  }
+}
+
 // Changes active class of Navigation Links
 function changeMenuActiveClass(activeClass){
   $(".nav-link").removeClass("selected").addClass("not-selected");
@@ -57,12 +92,12 @@ $(window).load(function(){
   var headerWrapperHeight = $("#header-wrapper").height();
 
   // Find out top offsets for scrolling function
-  var homePos = $(".home-row").offset().top;
-  var aboutPos = $(".about-row").offset().top;
-  var hoerPos = $(".hoerbeispiele-row").offset().top;
-  var referPos = $(".references-row").offset().top;
-  var berufsPos = $(".berufsdetails-row").offset().top;
-  var kontaktPos = $(".kontakt-row").offset().top;
+  homePos = document.getElementsByClassName("home-row").offsetTop;
+  aboutPos = document.getElementsByClassName("about-row").offsetTop;
+  hoerPos = document.getElementsByClassName("hoerbeispiele-row").offsetTop;
+  referPos = document.getElementsByClassName("references-row").offsetTop;
+  berufsPos = document.getElementsByClassName("berufsdetails-row").offsetTop;
+  kontaktPos = document.getElementsByClassName("kontakt-row").offsetTop;
 
   // Array with link IDs and matching row classes
   var array = [["#home-link", ".home-row"],
@@ -101,58 +136,19 @@ $(window).load(function(){
   // Menu links reacts to scrolling
   $(window).scroll(function() {
     var currentPosition = 0;
-
-    // iPad/iPhone scroll issue solving attempt
-    if(isMobileDevice){
-      currentPosition= window.pageYOffset;
-    }else{
-      currentPosition = $(window).scrollTop();
-    }
+    currentPosition= window.pageYOffset;
     currentPosition += $("#header-wrapper").height();
 
-    // change active classes
-    if(currentPosition >= homePos && currentPosition <= aboutPos){
-      changeMenuActiveClass("#home-link");
-    }else if(currentPosition >= aboutPos && currentPosition <= hoerPos){
-      changeMenuActiveClass("#about-link");
-    }else if(currentPosition >= hoerPos && currentPosition <= referPos){
-      changeMenuActiveClass("#hoerbeispiele-link");
-    }else if(currentPosition >= referPos && currentPosition <= berufsPos){
-      changeMenuActiveClass("#references-link");
-    }else if(currentPosition >= berufsPos && currentPosition <= kontaktPos){
-      changeMenuActiveClass("#berufsdetails-link");
-    }else if(currentPosition >= kontaktPos){
-      changeMenuActiveClass("#kontakt-link");
-    }
-
+    checkActiveMenuClass(currentPosition);
   });
 
+  // iPad/iPhone support
   $('body').bind('touchmove', function(e) {
-
     var currentPosition = 0;
-
-    // iPad/iPhone scroll issue solving attempt
-    if(isMobileDevice){
-      currentPosition= window.pageYOffset;
-    }else{
-      currentPosition = $(window).scrollTop();
-    }
+    currentPosition= window.pageYOffset;
     currentPosition += $("#header-wrapper").height();
 
-    // change active classes
-    if(currentPosition >= homePos && currentPosition <= aboutPos){
-      changeMenuActiveClass("#home-link");
-    }else if(currentPosition >= aboutPos && currentPosition <= hoerPos){
-      changeMenuActiveClass("#about-link");
-    }else if(currentPosition >= hoerPos && currentPosition <= referPos){
-      changeMenuActiveClass("#hoerbeispiele-link");
-    }else if(currentPosition >= referPos && currentPosition <= berufsPos){
-      changeMenuActiveClass("#references-link");
-    }else if(currentPosition >= berufsPos && currentPosition <= kontaktPos){
-      changeMenuActiveClass("#berufsdetails-link");
-    }else if(currentPosition >= kontaktPos){
-      changeMenuActiveClass("#kontakt-link");
-    }
+    checkActiveMenuClass(currentPosition);
   });
 
   // Initialize Stellar.js
