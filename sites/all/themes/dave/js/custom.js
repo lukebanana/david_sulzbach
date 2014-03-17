@@ -89,7 +89,9 @@ $(window).load(function(){
         // Scroll to position of row, minus size of the header (overlapping)
         $("body").animate({
           scrollTop: ($(entry[1]).offset().top - headerWrapperHeight + 10)
-        }, 800);
+        }, 800, function(){
+          $('html,body').clearQueue();
+        });
       });
   });
 
