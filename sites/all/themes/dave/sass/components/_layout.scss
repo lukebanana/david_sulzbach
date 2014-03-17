@@ -93,6 +93,7 @@
           margin-right: 0;
           float: left;
           text-align: center;
+          cursor: pointer;  // iPad issue fix
 
           @include at-breakpoint($small-desktop) {
             padding-right: 2.8%;
@@ -102,6 +103,7 @@
             font-size: 16px;
             padding-right: 1.5%;
             padding-left: 1.5%;
+
           }
           @include at-breakpoint($mobile) {
             @include span-columns(12 omega, 12);
