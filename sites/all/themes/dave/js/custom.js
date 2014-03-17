@@ -47,6 +47,11 @@ $(window).load(function(){
   // Check if mobile device is used
   var isMobileDevice = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
 
+  if ('ontouchstart' in document) {
+      $('#touch-wrapper').removeClass('no-touch');
+  }
+
+
   // Set height for container after all images are loaded
   setContainerHeight();
 
