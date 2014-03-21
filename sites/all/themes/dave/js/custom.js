@@ -124,7 +124,7 @@ $(window).load(function(){
           $('#navigation-bar').slideToggle('slow/400/fast');
         };
         // Scroll to position of row, minus size of the header (overlapping)
-        $("body").animate({
+        $("html, body").animate({
           scrollTop: ($(entry[1]).offset().top - headerWrapperHeight + 10)
         }, 800, function(){
           $('html,body').clearQueue();
