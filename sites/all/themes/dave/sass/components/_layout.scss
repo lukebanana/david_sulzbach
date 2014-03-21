@@ -15,6 +15,10 @@
   }
   a{
     color: black;
+    -moz-outline-style: none;
+    ::-moz-focus-inner {
+      border: 0;
+    }
   }
   p{
     @include at-breakpoint($mobile) {
@@ -22,6 +26,7 @@
     }
   }
 }
+
 
 
 // **************************** HEADER ********************************
@@ -67,18 +72,11 @@
       }
 
       #navigation-wrapper{
+        text-align: right;
+        width: 100%;
 
-        float: right;
-        width: 710px;
         @include at-breakpoint($mobile) {
-          width: 400px;
           @include span-columns(12 omega, 12);
-        }
-        @include at-breakpoint($tablet) {
-          width: 550px;
-        }
-        @include at-breakpoint($small-desktop) {
-          width: 655px;
         }
 
         .nav-link{
@@ -91,7 +89,8 @@
           text-transform: uppercase;
           text-decoration: none;
           margin-right: 0;
-          float: left;
+          //float: left;
+          display: inline-block;
           text-align: center;
           cursor: pointer;  // iPad issue fix
 
@@ -408,17 +407,28 @@
         min-height: 25px;
       }
       #webform-component-nachricht{
-        textarea{
-          background-color: #EEE;
-          @include border-radius(5px);
-        }
-        .grippie{
-          display: none;
+        .form-textarea-wrapper{
+          width: 100%;
+
+          label{
+            @include span-columns(12 omega, 12);
+          }
+
+          textarea{
+            @include span-columns(12 omega, 12);
+            background-color: #EEE;
+            @include border-radius(5px);
+            border: none;
+          }
+          .grippie{
+            display: none;
+          }
         }
       }
 
       #edit-submit{
-        width: 100%;
+        @include span-columns(12 omega, 12);
+        margin-top: 20px;
         padding: 5px;
         border: none;
         color: #EEE;
